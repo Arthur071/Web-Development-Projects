@@ -12,30 +12,22 @@ body{
     font-family: 'Noto Sans', sans-serif;
 }
 
-nav{
+#header{
     display: flex;
-    justify-content:space-around;
     align-items: center;
-    height: 80px;
+    justify-content: space-between;
+    padding: 20px 80px;
 }
 
-nav ul{
+#navbar{
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
-nav ul li{
+#navbar li{
     list-style: none;
-    margin: 0 23px;
-}
-
-nav ul li a{
-    text-decoration: none;
-    color: rgb(0, 35, 35);
+    padding: 0 20px;
     font-size: 20px;
-}
-
-nav i{
-    font-size: 25px;
 }
 
