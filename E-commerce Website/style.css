@@ -545,3 +545,11 @@ footer .install .row img{
     border: 1px solid rgb(0, 116, 129);
     border-radius: 6px;
 }
+
+footer .install img{
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover{
+    color: rgb(0, 116, 129);
+}
