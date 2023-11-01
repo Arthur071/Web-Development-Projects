@@ -494,7 +494,7 @@ p{
     border-bottom-left-radius: 0;
 }
 
-footer img{
+footer .logo{
     width: 150px;
     margin-bottom: 30px;
     
@@ -539,4 +539,9 @@ footer .follow i{
     
     cursor: pointer;
     font-size: 20px;
+}
+
+footer .install .row img{
+    border: 1px solid rgb(0, 116, 129);
+    border-radius: 6px;
 }
