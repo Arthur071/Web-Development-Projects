@@ -550,6 +550,12 @@ footer .install img{
     margin: 10px 0 15px 0;
 }
 
-footer .follow i:hover{
+footer .follow i:hover,
+footer a:hover{
     color: rgb(0, 116, 129);
+}
+
+.copyright{
+    text-align: center;
+    margin-bottom: 25px;
 }
