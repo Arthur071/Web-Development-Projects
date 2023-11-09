@@ -41,11 +41,37 @@ body{
     height: 70px;
 }
 
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 30px;
+    font-size: 20px;
+    
+}
+
+
 
 
 #navbar a{
     text-decoration: none;
-    transition: all .3s ease-in-out;
+    color: #2a1610; 
+    transition: 0.3s ease;
+}
+
+#navbar a:hover{
+    color: #ea6811;
+}
+
+#header .logo {
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: 600;
+    
 }
 
 
