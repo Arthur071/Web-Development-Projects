@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Jost', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h1{
@@ -29,6 +29,10 @@ p{
     line-height: 1.5em;
 }
 
+.section-p1{
+    padding: 20px 80px;
+}
+
 body{
     background-color: #F6F1EE;
 }
@@ -49,8 +53,9 @@ body{
 
 #navbar li{
     list-style: none;
-    padding: 0 30px;
-    font-size: 20px;
+    padding: 0 25px;
+    font-size: 18px;
+    font-weight: 700;
     
 }
 
@@ -67,11 +72,32 @@ body{
     color: #ea6811;
 }
 
-#header .logo {
+.logo  a{
     font-size: 25px;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 700;
+    color: #2a1610;
+    
     
 }
+
+.logo a i{
+    color: #ea6811;
+    
+}
+
+#nav-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#nav-button li{
+    list-style: none;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
 
 
