@@ -30,7 +30,7 @@ p {
 }
 
 .section-p1 {
-    padding: 20px 60px;
+    padding: 20px 50px;
 }
 
 body {
@@ -41,7 +41,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 60px;
+    padding: 20px 50px;
     height: 40px;
     background-color: #243f2f;
 }
@@ -101,7 +101,7 @@ body {
     font-weight: 700;
 }
 
-#nav-button a {
+#nav-button  li a {
     text-decoration: none;
     color: #ffffff;
     transition: 0.3s ease;
@@ -121,3 +121,85 @@ body {
 
     color: #ec6e55;
 }
+
+
+#header1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    height: 70px;
+    background-color: #ffffff;
+
+}
+
+#navbar1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+#navbar1 li{
+    
+    list-style: none;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 700;
+    
+}
+
+#navbar2 li{
+    list-style: none;
+    padding: 0 7px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+#navbar1  li a {
+    text-decoration: none;
+    color: #243f2f;
+    transition: 0.3s ease;
+}
+
+#navbar2  li a {
+    text-decoration: none;
+    color: #243f2f;
+    transition: 0.3s ease;
+
+}
+
+#navbar1 li i {
+    font-size: 18px;
+    color: #ec6e55;
+    transition: 0.3s ease;
+}
+#navbar2 li i {
+    font-size: 16px;
+    color: #243f2f;
+    transition: 0.3s ease;
+}
+
+#navbar1 img{
+    width: 150px;
+    height: 30px;
+}
+
+
+#navbar1 li a:hover,
+#navbar2 li i:hover{
+    color: #ec6e55;
+}
+
+
+
+
