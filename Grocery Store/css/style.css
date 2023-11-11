@@ -30,7 +30,7 @@ p{
 }
 
 .section-p1{
-    padding: 20px 80px;
+    padding: 20px 60px;
 }
 
 body{
@@ -41,8 +41,9 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 80px;
-    height: 70px;
+    padding: 20px 60px;
+    height: 40px;
+    background-color: #243f2f;
 }
 
 #navbar{
@@ -53,8 +54,8 @@ body{
 
 #navbar li{
     list-style: none;
-    padding: 0 25px;
-    font-size: 18px;
+    padding: 0 15px;
+    font-size: 14px;
     font-weight: 700;
     
 }
@@ -64,25 +65,25 @@ body{
 
 #navbar a{
     text-decoration: none;
-    color: #2a1610; 
+    color: #ffffff; 
     transition: 0.3s ease;
 }
 
 #navbar a:hover{
-    color: #ea6811;
+    color: #ec6e55;
 }
 
-.logo  a{
-    font-size: 25px;
+#header-dil  a{
+    font-size: 12px;
     text-decoration: none;
     font-weight: 700;
-    color: #2a1610;
+    color: #ffffff;
     
     
 }
 
-.logo a i{
-    color: #ea6811;
+#header-dil a i{
+    color: #ec6e55;
     
 }
 
@@ -96,8 +97,29 @@ body{
 #nav-button li{
     list-style: none;
     padding: 0 10px;
-    font-size: 20px;
+    font-size: 14px;
+    font-weight: 700;
 }
+#nav-button a{
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.3s ease;
+}
+#nav-button li i{
+    font-size: 12px;
+    color: #ec6e55;
+    transition: 0.3s ease;
+}
+
+#nav-button li i:hover{
+    color: #ffffff;
+}
+#nav-button a:hover{
+
+    color:#ec6e55;
+}
+
+
 
 
 
