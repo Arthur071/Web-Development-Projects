@@ -30,11 +30,11 @@ p {
 }
 
 .section-p1 {
-    padding: 20px 50px;
+    padding: 25px 50px;
 }
 
 body {
-    background-color: #F6F1EE;
+    background-color: #eff5ee;
 }
 
 #header {
@@ -258,12 +258,84 @@ body {
 }
 #home-button button i{
     color: #ec6e55;
+    
 }
 
 #home-button button:hover{
     background-color: #ffffff;
     color: #243f2f;
 }
+
+#types{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 25px;
+    
+}
+
+
+#types h2{
+    color: #243f2f;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.8px;
+    line-height: 1;
+}
+
+#types-img{
+    background-color: #C6D9C1;
+    background-image: url(/img/types/tp1.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 255px;
+    padding: 40px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center ;
+    border-radius: 20px;
+    transition: transform 0.5s ease;
+
+}
+
+
+
+#types-img:hover{
+    transform: translateY(-5px);
+    
+} 
+
+
+#types-img button{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.08;
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    margin-top: 30px;
+    transition: 0.3s ease;
+}
+
+#types-img button:hover{
+    background-color: #243f2f;
+    color: white;
+}
+
+
+#types .types-img2{
+    background-color: #C9E8EE; 
+    background-image: url(/img/types/tp3.jpg);   
+}
+#types .types-img1{
+    background-color: #F8DDB1;  
+    background-image: url(/img/types/tp2.jpg);  
+}
+
+
 
 
 
