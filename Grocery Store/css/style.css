@@ -131,6 +131,11 @@ body {
     height: 70px;
     background-color: #ffffff;
     box-shadow: 0px 8px 19px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999
+    
     
 
 }
@@ -313,6 +318,7 @@ body {
     font-weight: 700;
     letter-spacing: -0.08;
     background-color: #ffffff;
+    color: #243f2f;
     border-radius: 50px;
     padding: 10px 20px 10px 20px;
     border: none;
@@ -334,6 +340,9 @@ body {
     background-color: #F8DDB1;  
     background-image: url(/img/types/tp2.jpg);  
 }
+
+
+
 
 
 
