@@ -101,7 +101,7 @@ body {
     font-weight: 700;
 }
 
-#nav-button  li a {
+#nav-button li a {
     text-decoration: none;
     color: #ffffff;
     transition: 0.3s ease;
@@ -123,7 +123,7 @@ body {
 }
 
 
-#header1{
+#header1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -135,19 +135,16 @@ body {
     top: 0;
     left: 0;
     z-index: 999
-    
-    
-
 }
 
-#navbar1{
-    
+#navbar1 {
+
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#navbar2{
+#navbar2 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,29 +153,29 @@ body {
 
 
 
-#navbar1 li{
-    
+#navbar1 li {
+
     list-style: none;
     padding: 0 15px;
     font-size: 16px;
     font-weight: 700;
-    
+
 }
 
-#navbar2 li{
+#navbar2 li {
     list-style: none;
     padding: 0 7px;
     font-size: 12px;
     font-weight: 700;
 }
 
-#navbar1  li a {
+#navbar1 li a {
     text-decoration: none;
     color: #243f2f;
     transition: 0.3s ease;
 }
 
-#navbar2  li a {
+#navbar2 li a {
     text-decoration: none;
     color: #243f2f;
     transition: 0.3s ease;
@@ -190,25 +187,26 @@ body {
     color: #ec6e55;
     transition: 0.3s ease;
 }
+
 #navbar2 li i {
     font-size: 16px;
     color: #243f2f;
     transition: 0.3s ease;
 }
 
-#navbar1 img{
+#navbar1 img {
     width: 170px;
     height: 30px;
-    
+
 }
 
 
 #navbar1 li a:hover,
-#navbar2 li i:hover{
+#navbar2 li i:hover {
     color: #ec6e55;
 }
 
-#home{
+#home {
     background-color: #577243;
     background-image: url(/img/assets/bg.jpg);
     background-position: center right;
@@ -216,39 +214,39 @@ body {
     background-size: cover;
     width: 100%;
     height: 50vh;
-    
+
 }
 
-#home-text{
+#home-text {
     padding: 0 50px;
     padding-top: 70px;
     padding-bottom: 30px;
     width: 100%;
-    
+
 }
 
-#home-text h1{
+#home-text h1 {
     color: #EBFFDC;
     font-size: 70px;
     letter-spacing: -3.999px;
-    text-shadow:  1px 1.5px rgba(0, 0, 0, 0.24);
-    line-height: 73px; 
+    text-shadow: 1px 1.5px rgba(0, 0, 0, 0.24);
+    line-height: 73px;
 }
 
-#home-button{
+#home-button {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0 50px;   
+    padding: 0 50px;
 }
 
-#home-button p{
+#home-button p {
     font-size: 14px;
     color: #EBFFDC;
     font-weight: 700;
 }
 
-#home-button button{
+#home-button button {
     font-size: 15px;
     font-weight: 700;
     padding: 13px 20px 13px 20px;
@@ -261,25 +259,26 @@ body {
     color: #ffffff;
     margin-right: 25px;
 }
-#home-button button i{
+
+#home-button button i {
     color: #ec6e55;
-    
+
 }
 
-#home-button button:hover{
+#home-button button:hover {
     background-color: #ffffff;
     color: #243f2f;
 }
 
-#types{
+#types {
     display: flex;
     flex-wrap: nowrap;
     gap: 25px;
-    
+
 }
 
 
-#types h2{
+#types h2 {
     color: #243f2f;
     font-size: 32px;
     font-weight: 700;
@@ -287,7 +286,7 @@ body {
     line-height: 1;
 }
 
-#types-img{
+#types-img {
     background-color: #C6D9C1;
     background-image: url(/img/types/tp1.jpg);
     background-position: center right;
@@ -299,7 +298,7 @@ body {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    justify-content: center ;
+    justify-content: center;
     border-radius: 20px;
     transition: transform 0.5s ease;
 
@@ -307,13 +306,13 @@ body {
 
 
 
-#types-img:hover{
+#types-img:hover {
     transform: translateY(-5px);
-    
-} 
+
+}
 
 
-#types-img button{
+#types-img button {
     font-size: 14px;
     font-weight: 700;
     letter-spacing: -0.08;
@@ -326,32 +325,18 @@ body {
     transition: 0.3s ease;
 }
 
-#types-img button:hover{
+#types-img button:hover {
     background-color: #243f2f;
     color: white;
 }
 
 
-#types .types-img2{
-    background-color: #C9E8EE; 
-    background-image: url(/img/types/tp3.jpg);   
-}
-#types .types-img1{
-    background-color: #F8DDB1;  
-    background-image: url(/img/types/tp2.jpg);  
+#types .types-img2 {
+    background-color: #C9E8EE;
+    background-image: url(/img/types/tp3.jpg);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#types .types-img1 {
+    background-color: #F8DDB1;
+    background-image: url(/img/types/tp2.jpg);
+}
