@@ -384,17 +384,30 @@ body {
     height: auto;
     padding: 25px;
     margin-bottom: 25px;
+    cursor: pointer;
     
 }
 
 #home-items .img h4{
     font-size: 13px;
     margin-bottom: 10px;
+    color: #243f2f;
+    transition: 0.3s ease;
+}
+#home-items .img h4:hover{
+    
+    color: #ec6e55;
 }
 #home-items .img p{
     font-size: 11px;
     margin-bottom: 10px;
+    color: #212121;
 }
+
+#home-items  p strong{
+    color: #ec6e55;
+}
+
 
 
 
@@ -402,12 +415,19 @@ body {
     font-size: 11px;
     margin-bottom: 10px;
     padding: 25px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#home-items span:hover{
+    color: #ec6e55;
 }
 
 #home-items .price-cart{
     
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 25px;
 }
 
@@ -421,6 +441,23 @@ body {
     border-right: none;
     
 
+}
+
+
+#home-items .price-cart i{
+        color: #243f2f;
+        font-size: 16px;
+        padding: 10px;
+        background: #eff5ee;
+        border-radius: 50px;
+        transition: 0.3s ease;
+        font-weight: 600;
+}
+
+
+#home-items .price-cart i:hover{
+    color: #ffffff;
+    background-color: #243f2f;
 }
 
 
