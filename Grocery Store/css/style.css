@@ -450,7 +450,7 @@ body {
         padding: 10px;
         background: #eff5ee;
         border-radius: 50px;
-        transition: 0.3s ease;
+        transition: 0.3s ease-in-out;
         font-weight: 600;
 }
 
