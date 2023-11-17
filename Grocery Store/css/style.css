@@ -370,6 +370,7 @@ body {
 
 #home-items{
     padding: 0 50px;
+    margin-bottom: 25px;
 }
 
 #home-items .pro-img{
@@ -458,6 +459,68 @@ body {
 #home-items .price-cart i:hover{
     color: #ffffff;
     background-color: #243f2f;
+}
+
+
+.banner1{
+    padding: 0px 50px;
+    background-color: transparent;
+    background-image: radial-gradient(at center left, #51A390 3%, #276153 81%);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    max-height: 400px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.banner1 .banner-img{
+    width: 40%;
+    padding: 40px;
+    margin: -70px 0px 0px 0px;
+}
+
+.banner1 h2{
+    color: #D4FFFF;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: -2.048px;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.24);
+}
+.banner1 p{
+    color: #D4FFFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 60px;
+    
+}
+
+
+.banner1 button{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -0.08;
+    background-color: #ffffff;
+    color: #243f2f;
+    border-radius: 50px;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    margin-top: 10px;
+    transition: 0.3s ease;
+    
+}
+.banner1 button:hover {
+    color: #ffffff;
+    background-color: #243f2f;
+
+}
+
+
+.banner1 img{
+    width: 90%;
+    height: auto;
+
 }
 
 
