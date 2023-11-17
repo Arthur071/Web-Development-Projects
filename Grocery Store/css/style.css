@@ -469,14 +469,14 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    max-height: 400px;
+    max-height: 380px;
     align-items: center;
     border-radius: 20px;
 }
 
 .banner1 .banner-img{
     width: 40%;
-    padding: 40px;
+    padding: 40px 30px;
     margin: -70px 0px 0px 0px;
 }
 
