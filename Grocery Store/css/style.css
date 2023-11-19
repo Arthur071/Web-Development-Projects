@@ -343,19 +343,19 @@ body {
 
 
 
-#home-items .item-box{
+#home-items .item-box {
     width: calc(100% /6);
     border-right: 1px solid#d9e7d6;
     border-bottom: 1px solid#d9e7d6;
-    
+
 }
 
-.home-h2{
+.home-h2 {
     text-align: center;
     margin-bottom: 25px;
 }
 
-.container{
+.container {
     background-color: #ffffff;
     border-radius: 10px;
     border: 1px solid#d9e7d6;
@@ -364,55 +364,58 @@ body {
 }
 
 
-.home-h2 h2{
+.home-h2 h2 {
     font-size: 27px;
 }
 
-#home-items{
+#home-items {
     padding: 0 50px;
     margin-bottom: 25px;
 }
 
-#home-items .pro-img{
-    width: 100%;
-}
-#home-items .pro-img img{
+#home-items .pro-img {
     width: 100%;
 }
 
-#home-items .img{
-    
+#home-items .pro-img img {
+    width: 100%;
+}
+
+#home-items .img {
+
     height: auto;
     padding: 25px;
     margin-bottom: 25px;
     cursor: pointer;
-    
+
 }
 
-#home-items .img h4{
+#home-items .img h4 {
     font-size: 13px;
     margin-bottom: 10px;
     color: #243f2f;
     transition: 0.3s ease;
 }
-#home-items .img h4:hover{
-    
+
+#home-items .img h4:hover {
+
     color: #ec6e55;
 }
-#home-items .img p{
+
+#home-items .img p {
     font-size: 11px;
     margin-bottom: 10px;
     color: #212121;
 }
 
-#home-items  p strong{
+#home-items p strong {
     color: #ec6e55;
 }
 
 
 
 
-#home-items span{
+#home-items span {
     font-size: 11px;
     margin-bottom: 10px;
     padding: 25px;
@@ -420,51 +423,53 @@ body {
     transition: 0.3s ease;
 }
 
-#home-items span:hover{
+#home-items span:hover {
     color: #ec6e55;
 }
 
-#home-items .price-cart{
-    
+#home-items .price-cart {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 25px;
 }
 
-#home-items .img1{
+#home-items .img1 {
     border-top-left-radius: 10px;
 
 
 }
-#home-items .img2{
+
+#home-items .img2 {
     border-top-right-radius: 10px;
     border-right: none;
-    
+
 
 }
 
 
-#home-items .price-cart i{
-        color: #243f2f;
-        font-size: 16px;
-        padding: 10px;
-        background: #eff5ee;
-        border-radius: 50px;
-        transition: 0.3s ease-in-out;
-        font-weight: 600;
+#home-items .price-cart i {
+    color: #243f2f;
+    font-size: 16px;
+    padding: 10px;
+    background: #eff5ee;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+    font-weight: 600;
 }
 
 
-#home-items .price-cart i:hover{
+#home-items .price-cart i:hover {
     color: #ffffff;
     background-color: #243f2f;
 }
-#banner{
+
+#banner {
     padding: 25px 50px;
 }
 
-.banner1{
+.banner1 {
     padding: 0px 50px;
     background-color: transparent;
     background-image: radial-gradient(at center left, #51A390 3%, #276153 81%);
@@ -476,13 +481,13 @@ body {
     border-radius: 20px;
 }
 
-.banner1 .banner-img{
+.banner1 .banner-img {
     width: 40%;
     padding: 40px 20px;
     margin: -70px 0px 0px 0px;
 }
 
-.banner1 h2{
+.banner1 h2 {
     color: #D4FFFF;
     font-size: 50px;
     font-weight: 700;
@@ -490,16 +495,17 @@ body {
     letter-spacing: -2.048px;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.24);
 }
-.banner1 p{
+
+.banner1 p {
     color: #D4FFFF;
     font-size: 14px;
     font-weight: 700;
     line-height: 60px;
-    
+
 }
 
 
-.banner1 button{
+.banner1 button {
     font-size: 14px;
     font-weight: 700;
     letter-spacing: -0.08;
@@ -510,8 +516,9 @@ body {
     border: none;
     margin-top: 10px;
     transition: 0.3s ease;
-    
+
 }
+
 .banner1 button:hover {
     color: #ffffff;
     background-color: #243f2f;
@@ -519,19 +526,8 @@ body {
 }
 
 
-.banner1 img{
+.banner1 img {
     width: 85%;
     height: auto;
 
 }
-
-
-
-
-
-
-
-
-
-
-
